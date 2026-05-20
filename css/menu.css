@@ -1,0 +1,125 @@
+@media (min-width: 800px) {
+  h3,
+  p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+body {
+  background-color: #e3abb6;
+}
+
+/* header  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #c97c8f;
+  /* #ffc3d2 */
+  /* background-color: #4a2c34; */
+  height: 5rem;
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.pris {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 800px;
+  top: 300px;
+}
+
+/* prikker under h1 tekst */
+h1 {
+  display: inline-block;
+  border-bottom: 3px dotted black;
+  justify-content: center;
+  padding: 0 100px 6px;
+}
+
+.h1-wrapper {
+  text-align: center;
+}
+
+/* centreret tekst */
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* billede sektion */
+.galleri {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  img {
+    width: 260px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+}
+
+/* footer */
+.footer-pic {
+  max-height: 70px;
+}
+
+footer {
+  background-color: #ddd5d5;
+}
+
+#adress,
+#watch,
+#phone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+#footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
