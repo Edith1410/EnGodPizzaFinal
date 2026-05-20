@@ -139,10 +139,22 @@ h2 {
 .footer-pic {
   max-height: 70px;
 }
-#baking-pizza,
-#tomat-pic {
-  padding: 10px;
-  border-radius: 60px;
+@media (min-width: 1200px) {
+  #baking-pizza,
+  #tomat-pic {
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  #baking-pizza,
+  #tomat-pic {
+    border-radius: 60px;
+  }
+  #tomat-pic {
+    padding-top: 10px;
+  }
 }
 p,
 h1,
