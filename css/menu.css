@@ -1,4 +1,24 @@
-@media (min-width: 800px) {
+@font-face {
+  font-family: interblack;
+  src: url(../fonts/Inter_18pt-Black.woff);
+}
+
+@font-face {
+  font-family: inter;
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.woff);
+}
+
+h1,
+h2,
+h3 {
+  font-family: interblack;
+}
+
+/* p {
+  font-family: inter;
+} */
+
+@media (min-width: 1200px) {
   h3,
   p {
     margin-left: 15rem;
@@ -25,6 +45,7 @@ header {
     color: black;
     cursor: pointer;
     margin-left: 50px;
+    font-family: inter;
   }
   img {
     width: 200px;
@@ -52,12 +73,14 @@ header {
   width: 100%;
 }
 
-.pris {
+/* pris mærker */
+.pris1 {
   width: 80px;
   height: 80px;
   background-color: black;
   color: #e3abb6;
   border-radius: 50%;
+  font-family: inter;
 
   display: flex;
   align-items: center;
@@ -66,8 +89,121 @@ header {
   font-size: 30px;
 
   position: absolute;
-  left: 800px;
-  top: 300px;
+  left: 55%;
+  top: 50%;
+}
+
+.pris2 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 60%;
+  top: 165%;
+}
+
+.pris3 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 80%;
+  top: 245%;
+}
+
+.pris4 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 70%;
+  top: 440%;
+}
+.pris5 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 50%;
+  top: 490%;
+}
+
+.pris6 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 60%;
+  top: 550%;
+}
+
+.pris7 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #e3abb6;
+  border-radius: 50%;
+  font-family: inter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+
+  position: absolute;
+  left: 70%;
+  top: 580%;
 }
 
 /* prikker under h1 tekst */
@@ -80,6 +216,9 @@ h1 {
 
 .h1-wrapper {
   text-align: center;
+}
+.undertekst {
+  font-size: 17px;
 }
 
 /* centreret tekst */
@@ -102,24 +241,82 @@ h2 {
   }
 }
 
-/* footer */
-.footer-pic {
-  max-height: 70px;
-}
+/* footer computer: */
+@media (min-width: 1200px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c97c8f;
+    padding: 40px 60px;
+    gap: 40px;
+    font-family: "Georgia", serif;
+  }
 
-footer {
-  background-color: #ddd5d5;
-}
+  .footer-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 280px;
+  }
 
-#adress,
-#watch,
-#phone {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  .footer-item h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-item p {
+    margin: 4px 0;
+    font-size: 20px;
+    color: #222;
+  }
+
+  .icon {
+    font-size: 42px;
+    line-height: 1;
+    color: #222;
+  }
+
+  .divider {
+    width: 1px;
+    height: 110px;
+    border-left: 2px dotted #555;
+  }
 }
-#footer-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+/* Footer phone: */
+@media (max-width: 1200px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 35px;
+    gap: 35px;
+    background-color: #c97c8f;
+  }
+
+  .footer-item {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    border-left: none;
+    border-top: 2px dotted #555;
+  }
+
+  .footer-item h3 {
+    font-size: 22px;
+  }
+
+  .footer-item p {
+    font-size: 18px;
+  }
+
+  .icon {
+    font-size: 36px;
+  }
 }
