@@ -20,13 +20,15 @@ p {
 }
 button {
   font-family: "InterNormal";
-  font-style: italic;
 }
 /* layout css */
 @media (min-width: 1200px) {
   #Tomat-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  #baking-pizza {
+    margin-bottom: 10px;
   }
   #pizza-section {
     display: grid;
@@ -118,7 +120,7 @@ button {
   object-fit: cover;
 }
 button {
-  background-color: #e3abb6;
+  background-color: #c97c8f;
   border: black solid 2px;
   border-radius: 15px;
   padding: 10px;
@@ -172,7 +174,6 @@ img {
   display: block;
   object-fit: cover;
 }
-
 /* footer computer: */
 @media (min-width: 1200px) {
   .footer {
