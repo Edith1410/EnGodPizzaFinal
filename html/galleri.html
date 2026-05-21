@@ -10,24 +10,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Din CSS -->
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
 
   <body>
+    <header>
+      <a href="index.html"><img src="../img/logo.png" alt="" /></a>
+
+      <nav>
+        <a href="index.html" class="link">FORSIDE</a>
+        <a href="menu.html" class="link">MENU</a>
+        <a href="" class="link">KONTAKT</a>
+      </nav>
+    </header>
+
+    <div class="pizza-text-wrapper">
+      <h2>ET GLIMT AF EN GOD PIZZA</h2>
+    </div>
+
     <!-- Slider -->
     <div class="swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="img/pizza1.jpg" alt="" />
+          <img src="../img/pizza1.jpeg" alt="" />
         </div>
         <div class="swiper-slide blue">
-          <img src="img/pizza2.jpg" alt="" />
+          <img src="../img/pizza2.jpg" alt="" />
         </div>
         <div class="swiper-slide red">
-          <img src="img/pizza3.jpg" alt="" />
+          <img src="../img/pizza3.jpg" alt="" />
         </div>
         <div class="swiper-slide green">
-          <img src="img/pizza4.jpg" alt="" />
+          <img src="../img/pizza4.jpg" alt="" />
         </div>
       </div>
 
@@ -43,40 +57,40 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Din JS -->
-    <script src="index.js"></script>
+    <script src="../js/index.js"></script>
 
     <footer>
-      <div id="footer-section">
-        <div id="adress">
+      <footer class="footer">
+        <div class="footer-item">
+          <div class="icon">📍</div>
           <div>
-            <img class="footer-pic" src="img/pin.png" alt="" />
-          </div>
-          <div>
-            <h3>Adresse</h3>
+            <h3>ADRESSE</h3>
             <p>Havnegade 6</p>
-            <p>3600 Fredriksund</p>
+            <p>3600 Frederikssund</p>
           </div>
         </div>
-        <div id="phone">
+
+        <div class="divider"></div>
+
+        <div class="footer-item">
+          <div class="icon">📞</div>
           <div>
-            <img class="footer-pic" src="img/Phone.png" alt="" />
-          </div>
-          <div>
-            <h3>Telefon</h3>
-            <p>47 38 52 54</p>
-          </div>
-        </div>
-        <div id="watch">
-          <div>
-            <img class="footer-pic" src="img/watch.png" alt="" />
-          </div>
-          <div>
-            <h3>Åbningstider</h3>
-            <p>Tirsdag-Søndag</p>
-            <p>Kl. 16-21</p>
+            <h3>TELEFON</h3>
+            <p>47 38 52 34</p>
           </div>
         </div>
-      </div>
+
+        <div class="divider"></div>
+
+        <div class="footer-item">
+          <div class="icon">🕒</div>
+          <div>
+            <h3>ÅBNINGSTIDER</h3>
+            <p>Tirsdag – Søndag</p>
+            <p>Kl. 16 – 21</p>
+          </div>
+        </div>
+      </footer>
     </footer>
   </body>
 </html>
