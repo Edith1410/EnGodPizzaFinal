@@ -73,137 +73,274 @@ header {
   width: 100%;
 }
 
-/* pris mærker */
-.pris1 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+/* pris mærker  computer*/
+@media (min-width: 1200px) {
+  .pris1 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 55%;
-  top: 50%;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+  }
+
+  .pris2 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 60%;
+    top: 165%;
+  }
+
+  .pris3 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 80%;
+    top: 245%;
+  }
+
+  .pris4 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 70%;
+    top: 440%;
+  }
+  .pris5 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 50%;
+    top: 490%;
+  }
+
+  .pris6 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 60%;
+    top: 550%;
+  }
+
+  .pris7 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 70%;
+    top: 580%;
+  }
 }
 
-.pris2 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+/* pris mærker mobil */
+@media (max-width: 1200px) {
+  .pris1 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 60%;
-  top: 165%;
-}
+    position: absolute;
+    left: 55%;
+    top: 50%;
+  }
 
-.pris3 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+  .pris2 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 80%;
-  top: 245%;
-}
+    position: absolute;
+    left: 60%;
+    top: 165%;
+  }
 
-.pris4 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+  .pris3 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 70%;
-  top: 440%;
-}
-.pris5 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+    position: absolute;
+    left: 80%;
+    top: 245%;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+  .pris4 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  position: absolute;
-  left: 50%;
-  top: 490%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-.pris6 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+    position: absolute;
+    left: 70%;
+    top: 440%;
+  }
+  .pris5 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 60%;
-  top: 550%;
-}
+    position: absolute;
+    left: 50%;
+    top: 490%;
+  }
 
-.pris7 {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  color: #e3abb6;
-  border-radius: 50%;
-  font-family: inter;
+  .pris6 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 
-  position: absolute;
-  left: 70%;
-  top: 580%;
+    position: absolute;
+    left: 60%;
+    top: 550%;
+  }
+
+  .pris7 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: #e3abb6;
+    border-radius: 50%;
+    font-family: inter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    left: 70%;
+    top: 580%;
+  }
 }
 
 /* prikker under h1 tekst */
