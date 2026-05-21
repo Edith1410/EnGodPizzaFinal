@@ -23,6 +23,13 @@ button {
 }
 /* layout css */
 @media (min-width: 1200px) {
+  .background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
   #Tomat-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,6 +160,9 @@ h2 {
     padding-top: 10px;
     padding-left: 10px;
     border-radius: 60px;
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
   }
 }
 @media (max-width: 1200px) {
