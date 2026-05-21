@@ -49,6 +49,12 @@ button {
   #Tomat-section {
     align-items: center;
   }
+  #tomat-pic {
+    margin-left: 50px;
+  }
+  .pizza-2 {
+    margin-left: 100px;
+  }
 
   #footer-section {
     display: grid;
@@ -133,7 +139,7 @@ footer {
 }
 h2 {
   display: inline-block;
-  border-bottom: 2px dotted #000;
+  border-bottom: 3px dotted #000;
   padding-bottom: 0.3em;
 }
 .footer-pic {
