@@ -20,13 +20,22 @@ p {
 }
 button {
   font-family: "InterNormal";
-  font-style: italic;
 }
 /* layout css */
 @media (min-width: 1200px) {
+  .background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
   #Tomat-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  #baking-pizza {
+    margin-bottom: 10px;
   }
   #pizza-section {
     display: grid;
@@ -48,6 +57,12 @@ button {
   #pizza-section,
   #Tomat-section {
     align-items: center;
+  }
+  #tomat-pic {
+    margin-left: 50px;
+  }
+  .pizza-2 {
+    margin-left: 100px;
   }
 
   #footer-section {
@@ -112,7 +127,7 @@ button {
   object-fit: cover;
 }
 button {
-  background-color: #e3abb6;
+  background-color: #c97c8f;
   border: black solid 2px;
   border-radius: 15px;
   padding: 10px;
@@ -133,16 +148,31 @@ footer {
 }
 h2 {
   display: inline-block;
-  border-bottom: 2px dotted #000;
+  border-bottom: 3px dotted #000;
   padding-bottom: 0.3em;
 }
 .footer-pic {
   max-height: 70px;
 }
-#baking-pizza,
-#tomat-pic {
-  padding: 10px;
-  border-radius: 60px;
+@media (min-width: 1200px) {
+  #baking-pizza,
+  #tomat-pic {
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 60px;
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 1200px) {
+  #baking-pizza,
+  #tomat-pic {
+    border-radius: 60px;
+  }
+  #tomat-pic {
+    padding-top: 10px;
+  }
 }
 p,
 h1,
@@ -154,7 +184,6 @@ img {
   display: block;
   object-fit: cover;
 }
-
 /* footer computer: */
 @media (min-width: 1200px) {
   .footer {
